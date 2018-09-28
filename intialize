@@ -1,0 +1,45 @@
+#boilerplate junk
+import turtle
+import shapes
+#define gio, shalom, faith, and lera the turtles
+gio = turtle.Turtle()
+gio.shape("turtle")
+shalom = turtle.Turtle()
+shalom.shape(turtle)
+shalom.color("blue","white")
+
+def turtlefriends(name1,name2,name3,name4, size, shape):
+  name1 = turtle.Turtle()
+  name2 = turtle.Turtle
+  name3 = turtle.Turtle()
+  name4 = turtle.Turtle()
+  name1.shape("shape")
+  name2.shape("shape")
+  name3.shape("shape")
+  name4.shape("shape")
+  name1.size("size")
+  name2.size("size")
+  name3.size("size")
+  name4.size("size")
+  
+turtlefriends(gio,lera,faith,shalom, 4, "turtle")
+
+  
+
+
+# defining create a plane
+def graphbase(turtle,color,x1,x2,y1,y2):
+  turtle.color(color)
+  turtle.penup()
+  turtle.goto(x1,y2)
+  turtle.pendown()
+  turtle.goto(x2,y2)
+
+
+
+
+  
+    
+  
+  
+
